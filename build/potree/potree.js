@@ -15696,7 +15696,7 @@ Potree.Viewer.Profile = class ProfileWindow{
 };
 
 // http://epsg.io/
-proj4.defs("UTM10N", "+proj=utm +zone=10 +ellps=GRS80 +datum=NAD83 +units=m +no_defs");
+var proj4.defs("UTM10N", "+proj=utm +zone=10 +ellps=GRS80 +datum=NAD83 +units=m +no_defs");
 
 Potree.MapView = class{
 		
