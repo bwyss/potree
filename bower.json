@@ -2,11 +2,11 @@
   "name": "potree",
   "description": "WebGL point cloud viewer",
   "main": [
-    "build/potree/potree.js",
     "libs/proj4/proj4.js",
     "libs/three.js/build/three.min.js",
     "libs/other/BinaryHeap.js",
-    "libs/other/OrbitControls.js"
+    "libs/other/OrbitControls.js",
+    "build/potree/potree.js"
   ],
   "license": "MIT",
   "homepage": "https://github.com/bwyss/potree",
